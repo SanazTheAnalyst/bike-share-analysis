@@ -1,0 +1,154 @@
+{
+  "rides": {
+    "casual": 1926052,
+    "member": 3512385
+  },
+  "ride_share": {
+    "casual": 0.3542,
+    "member": 0.6458
+  },
+  "median_minutes": {
+    "casual": 11.9,
+    "member": 8.7
+  },
+  "mean_minutes": {
+    "casual": 19.9,
+    "member": 12.1
+  },
+  "median_distance_km": {
+    "casual": 1.66,
+    "member": 1.65
+  },
+  "weekend_share": {
+    "casual": 0.3726,
+    "member": 0.2353
+  },
+  "round_trip_share": {
+    "casual": 0.0558,
+    "member": 0.0148
+  },
+  "rides_over_30_min_share": {
+    "casual": 0.1555,
+    "member": 0.0539
+  },
+  "busiest_day": {
+    "casual": "Saturday",
+    "member": "Thursday"
+  },
+  "busiest_hour": {
+    "casual": 17,
+    "member": 17
+  },
+  "bike_type_share": {
+    "casual": {
+      "classic_bike": 0.35,
+      "electric_bike": 0.65
+    },
+    "member": {
+      "classic_bike": 0.3684,
+      "electric_bike": 0.6316
+    }
+  },
+  "summer_share": {
+    "casual": 0.4728,
+    "member": 0.3568
+  },
+  "median_speed_kmh": {
+    "casual": 10.0,
+    "member": 12.4
+  },
+  "rides_by_month": {
+    "casual": {
+      "2024-12": 37360,
+      "2025-01": 23405,
+      "2025-02": 27003,
+      "2025-03": 82864,
+      "2025-04": 105260,
+      "2025-05": 175655,
+      "2025-06": 278702,
+      "2025-07": 308446,
+      "2025-08": 323533,
+      "2025-09": 254727,
+      "2025-10": 214380,
+      "2025-11": 94717
+    },
+    "member": {
+      "2024-12": 137570,
+      "2025-01": 112331,
+      "2025-02": 122097,
+      "2025-03": 208458,
+      "2025-04": 257921,
+      "2025-05": 313996,
+      "2025-06": 379523,
+      "2025-07": 430394,
+      "2025-08": 443130,
+      "2025-09": 440954,
+      "2025-10": 414094,
+      "2025-11": 251917
+    }
+  },
+  "months": [
+    "2024-12",
+    "2025-01",
+    "2025-02",
+    "2025-03",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-07",
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11"
+  ],
+  "cleaning": {
+    "raw_rows": 5590832,
+    "duplicates_removed": 0,
+    "outside_period_removed": 13,
+    "bad_duration_removed": 152382,
+    "clean_rows": 5438437,
+    "share_kept": 0.9727
+  },
+  "top_casual_stations": [
+    {
+      "start_station": "DuSable Lake Shore Dr & Monroe St",
+      "casual_rides": 30892
+    },
+    {
+      "start_station": "Navy Pier",
+      "casual_rides": 26647
+    },
+    {
+      "start_station": "Streeter Dr & Grand Ave",
+      "casual_rides": 23713
+    },
+    {
+      "start_station": "Michigan Ave & Oak St",
+      "casual_rides": 22105
+    },
+    {
+      "start_station": "DuSable Lake Shore Dr & North Blvd",
+      "casual_rides": 19054
+    },
+    {
+      "start_station": "Millennium Park",
+      "casual_rides": 18811
+    },
+    {
+      "start_station": "Shedd Aquarium",
+      "casual_rides": 16736
+    },
+    {
+      "start_station": "Dusable Harbor",
+      "casual_rides": 15541
+    },
+    {
+      "start_station": "Theater on the Lake",
+      "casual_rides": 15465
+    },
+    {
+      "start_station": "Michigan Ave & 8th St",
+      "casual_rides": 11073
+    }
+  ]
+}
